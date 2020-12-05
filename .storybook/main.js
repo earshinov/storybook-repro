@@ -2,6 +2,7 @@ module.exports = {
   stories: ['../src/**/*.stories.ts'],
   // https://storybook.js.org/docs/addons/addon-gallery/
   addons: [
+    '@storybook/addon-storysource',
     '@storybook/preset-scss',
   ],
   webpackFinal: async (config, { configType }) => {
